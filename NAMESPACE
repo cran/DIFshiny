@@ -1,0 +1,10 @@
+exportPattern("^[[:alpha:]]+")
+
+export(DIFshiny)
+import(shiny)
+import(shinydashboard)
+importFrom("stats", "rnorm", "runif")
+import(difR)
+import(readxl)
+
+
